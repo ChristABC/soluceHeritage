@@ -93,7 +93,7 @@ namespace projetHeritage
 
         public override void Move()
         {
-            Console.WriteLine(" se déplace sur ces quatres pates. ");
+            Console.WriteLine(" se déplace sur ses quatres pattes. ");
         }
 
     }
@@ -105,7 +105,7 @@ namespace projetHeritage
 
         public override void Move()
         {
-            Console.WriteLine(name + " marche sur ses quatres pates et à une trompe qui peut l'aider. ");
+            Console.WriteLine(name + " marche sur ses quatres pattes et à une trompe qui peut l'aider. ");
         }
     }
 
@@ -116,7 +116,7 @@ namespace projetHeritage
 
         public override void Move()
         {
-            Console.WriteLine(name + " marche sur ses quatres pates mais lentement. ");
+            Console.WriteLine(name + " marche sur ses quatres pattes mais lentement. ");
         }
     }
 
@@ -127,8 +127,9 @@ namespace projetHeritage
 
         public override void Move()
         {
-            Console.WriteLine(name + " marche sur ses quatres pates et très vite. ");
+            Console.WriteLine(name + " marche sur ses quatres pattes et très vite. ");
         }
     }
+    
 }
 
