@@ -31,6 +31,12 @@ namespace projetHeritage
         {
             System.Console.WriteLine(name + " se deplace");
         }
+
+        //Methode pour obtenir le nom
+        public string GetName()
+        {
+            return name;
+        }
     }
 
     public class Bipedes : Animal
