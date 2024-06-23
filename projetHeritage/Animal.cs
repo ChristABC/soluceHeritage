@@ -21,9 +21,9 @@ namespace projetHeritage
         }
 
         //Methode Manger 
-        public virtual void Eat()
+        public void Eat()
         {
-            System.Console.WriteLine(name + " mange");
+            System.Console.WriteLine(name + " mange avec sa bouche et s'aide de ses mains ou pattes. ");
         }
 
         //Methode Se deplacer
@@ -44,11 +44,7 @@ namespace projetHeritage
         public Bipedes(string _name) : base(_name, 2)
         { }
 
-        public override void Eat()
-        {
-            System.Console.WriteLine(name + " utilise ses mains pour manger. ");
-        }
-
+       
         public override void Move()
         {
             Console.WriteLine(name + " se déplace sur deux pattes. ");
@@ -59,11 +55,7 @@ namespace projetHeritage
     {
         public Human(string _name) : base(_name)
         { }
-
-        public override void Eat()
-        {
-            System.Console.WriteLine(name + " utilise des ustensiles et ses mains pour manger. ");
-        }
+               
 
         public override void Move()
         {
@@ -74,12 +66,6 @@ namespace projetHeritage
     {
         public Singe(string _name) : base(_name)
         { }
-
-        public override void Eat()
-        {
-            Console.WriteLine(name + " utilise ses mains pour manger. ");
-        }
-
 
         public override void Move()
         {
@@ -92,11 +78,7 @@ namespace projetHeritage
     {
         public Quadrupedes(string _name) : base(_name, 4)
         { }
-        public override void Eat()
-        {
-            System.Console.WriteLine(name + " utilise ses pattes pour manger. ");
-        }
-
+     
         public override void Move()
         {
             Console.WriteLine(" se déplace sur ses quatres pattes. ");
